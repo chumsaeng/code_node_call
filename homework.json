@@ -1,0 +1,7 @@
+var myJSON = '{"name": "Kate", "pet": {"dog": "Corgi", "cat": "Persian"}}';
+
+var myObj = JSON.parse(myJSON);
+
+// Modify myObj...
+
+JSON.stringify(myObj);
